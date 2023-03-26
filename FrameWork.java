@@ -17,9 +17,9 @@ public class FrameWork {
 		String title = driver.getTitle();
 		System.out.println(title);
 		
-		//driver.findElement(By.id("email")).sendKeys("ananth@gmail.com");
-		//driver.findElement(By.id("pass")).sendKeys("ananth@123"); 
-		//driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.id("email")).sendKeys("ananth@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("ananth@123"); 
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
 	}
 
